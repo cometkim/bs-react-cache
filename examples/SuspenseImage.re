@@ -7,5 +7,5 @@ let imageResource = ReactCache.make((src: string) => {
   });
 }, None);
 
-imageResource->ReactCache.read;
-imageResource->ReactCache.preload;
+imageResource->ReactCache.read("dot.png");
+imageResource->ReactCache.preload("cat.png");
