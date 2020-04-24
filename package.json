@@ -12,8 +12,13 @@
   "scripts": {
     "build": "bsb -make-world",
     "start": "bsb -make-world -w",
-    "clean": "bsb -clean-world"
+    "clean": "bsb -clean-world",
+    "prepublishOnly": "yarn build"
   },
+  "files": [
+    "src/",
+    "bsconfig.json"
+  ],
   "dependencies": {
     "react-cache": "^2.0.0-alpha.1"
   },
