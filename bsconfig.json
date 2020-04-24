@@ -1,0 +1,30 @@
+{
+  "name": "bs-react-cache",
+  "bsc-flags": [
+    "-bs-no-version-header",
+    "-bs-super-errors"
+  ],
+  "sources": [
+    {
+      "dir": "src",
+      "subdirs": true
+    },
+    {
+      "dir": "examples",
+      "type": "dev"
+    }
+  ],
+  "package-specs": [
+    {
+      "module": "commonjs",
+      "in-source": true
+    }
+  ],
+  "suffix": ".bs.js",
+  "bs-dependencies": [
+  ],
+  "bs-dev-dependencies": [
+  ],
+  "namespace": false,
+  "refmt": 3
+}
