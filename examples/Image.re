@@ -1,5 +1,5 @@
 type t;
-type onload = (unit) => unit;
+type onload = unit => unit;
 type onerror = exn => unit;
 
 [@bs.new] external make: unit => t = "Image";
