@@ -12,5 +12,5 @@ let imageResource =
     (),
   );
 
-imageResource->ReactCache.read("dot.png");
+imageResource->ReactCache.read("dog.png");
 imageResource->ReactCache.preload("cat.png");

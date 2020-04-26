@@ -16,7 +16,7 @@ var imageResource = ReactCache.unstable_createResource((function (src) {
                     }));
       }), undefined);
 
-imageResource.read("dot.png");
+imageResource.read("dog.png");
 
 imageResource.preload("cat.png");
 
