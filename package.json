@@ -13,6 +13,7 @@
     "build": "bsb -make-world",
     "start": "bsb -make-world -w",
     "clean": "bsb -clean-world",
+    "format": "bsrefmt --in-place **/*.re",
     "prepublishOnly": "yarn build"
   },
   "files": [
