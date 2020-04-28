@@ -1,8 +1,8 @@
-'use strict';
 
-var ReactCache = require("react-cache");
 
-var imageResource = ReactCache.unstable_createResource((function (src) {
+import * as ReactCache from "../src/ReactCache.bs.js";
+
+var imageResource = ReactCache.make((function (src) {
         return new Promise((function (resolve, reject) {
                       var image = new Image();
                       image.onload = (function (param) {
@@ -14,11 +14,14 @@ var imageResource = ReactCache.unstable_createResource((function (src) {
                       image.src = src;
                       return /* () */0;
                     }));
-      }), undefined);
+      }), undefined, /* () */0);
 
 imageResource.read("dog.png");
 
 imageResource.preload("cat.png");
 
-exports.imageResource = imageResource;
+export {
+  imageResource ,
+  
+}
 /* imageResource Not a pure module */

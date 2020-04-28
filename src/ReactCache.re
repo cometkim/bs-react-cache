@@ -4,10 +4,10 @@ type hash('input) = 'input => string;
 
 type loader('input, 'value) = 'input => Js.Promise.t('value);
 
-[@bs.module "react-cache"]
+[@bs.module "../lib/ReactCache"]
 external setGlobalCacheLimit: int => unit = "unstable_setGlobalCacheLimit";
 
-[@bs.module "react-cache"]
+[@bs.module "../lib/ReactCache"]
 external make:
   (
     ~loader: loader('input, 'value),

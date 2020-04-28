@@ -4,5 +4,6 @@ yarn.lock linguist-generated
 *.rei linguist-language=Reason
 
 *.bs.js linguist-generated
+/lib/*.js linguist-vendored
 
 * text eol=lf

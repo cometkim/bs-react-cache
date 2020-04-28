@@ -7,7 +7,35 @@ bs-platform@^7.2.2:
   resolved "https://registry.yarnpkg.com/bs-platform/-/bs-platform-7.2.2.tgz#76fdc63e4889458ae3d257a0132107a792f2309c"
   integrity sha512-PWcFfN+jCTtT/rMaHDhKh+W9RUTpaRunmSF9vbLYcrJbpgCNW6aFKAY33u0P3mLxwuhshN3b4FxqGUBPj6exZQ==
 
-react-cache@^2.0.0-alpha.1:
-  version "2.0.0-alpha.1"
-  resolved "https://registry.yarnpkg.com/react-cache/-/react-cache-2.0.0-alpha.1.tgz#4c119188248bc988a61268458bc18bd845f2ec19"
-  integrity sha512-dDJVVGvxAlZE/dMxDXaxU5ZfcE4fbaSmJVFrCTi6dYWXDp7YjCsnywkpEYG6IURVW+eJrCydAIDcW0FADw0/5w==
+"js-tokens@^3.0.0 || ^4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-4.0.0.tgz#19203fb59991df98e3a287050d4647cdeaf32499"
+  integrity sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==
+
+loose-envify@^1.1.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/loose-envify/-/loose-envify-1.4.0.tgz#71ee51fa7be4caec1a63839f7e682d8132d30caf"
+  integrity sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==
+  dependencies:
+    js-tokens "^3.0.0 || ^4.0.0"
+
+object-assign@^4.1.1:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/object-assign/-/object-assign-4.1.1.tgz#2109adc7965887cfc05cbbd442cac8bfbb360863"
+  integrity sha1-IQmtx5ZYh8/AXLvUQsrIv7s2CGM=
+
+react@^0.0.0-experimental-e5d06e34b:
+  version "0.0.0-experimental-e5d06e34b"
+  resolved "https://registry.yarnpkg.com/react/-/react-0.0.0-experimental-e5d06e34b.tgz#bfdbe2b228e1d1967330fc18b9e05331818f610d"
+  integrity sha512-2WUOtH5VE3cSyg22XxavfDoMQDIc51Pyudr/mrU1I1GcWIDKVg7QA/1dh5DlKyIvyWlM44pkwqz7V7gYHFzf2A==
+  dependencies:
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
+
+scheduler@^0.0.0-experimental-e5d06e34b:
+  version "0.0.0-experimental-e5d06e34b"
+  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.0.0-experimental-e5d06e34b.tgz#59a67c60b34c2c136b2f6d8daf9af74f91d97659"
+  integrity sha512-S4uANOeUKNI32GLMS28KvY7BHmtJL9Am3EsUB3WTr6Of5RNz1lEH0Qutc+j90GcgYM67l1qPOiO9sVLTdnTkxw==
+  dependencies:
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
