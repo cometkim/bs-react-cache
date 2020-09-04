@@ -24,13 +24,13 @@
     "bsconfig.json"
   ],
   "peerDependencies": {
-    "react": "^0.0.0-experimental-e5d06e34b",
+    "react": "^0.14.0",
     "scheduler": "^0.0.0-experimental-e5d06e34b"
   },
   "dependencies": {},
   "devDependencies": {
     "bs-platform": "^7.2.2",
-    "react": "^0.0.0-experimental-e5d06e34b",
+    "react": "^0.14.0",
     "scheduler": "^0.0.0-experimental-e5d06e34b"
   }
 }
